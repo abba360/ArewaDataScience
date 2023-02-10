@@ -2954,14 +2954,13 @@ countries_data = [
 # Create a function called the most_spoken_languages in the world. 
 # It should return 10 or 20 most spoken languages in the world in 
 # descending order
-def most_spoken_languages(lang):
-# What are the total number of languages in the data
-langs = ""
-for i in range(len(countries_data)):
-    for lang in countries_data[i]["languages"]:
-        langs = langs + " " + lang
-sum_langs = len(langs.split())
-print(sum_langs)
+def most_spoken_languages():
+    lang= ""
+    for i in range(len(countries_data)):
+        for lang in countries_data[i]["languages"]:
+            langs = langs + " " + lang
+    sum_langs = len(langs.split())
+    print(sum_langs)
 
 
 # Create a function called the most_populated_countries. It 
