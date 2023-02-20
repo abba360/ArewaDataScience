@@ -88,4 +88,11 @@ no_of_words_used = len(" I am a teacher and I love to inspire and teach people".
 # Convert the ages to a set and compare the length of the list and the set, which one is bigger?
 # Explain the difference between the following data types: string, list, tuple and set
 # I am a teacher and I love to inspire and teach people. How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
+sentence = "I am a teacher and I love to inspire and teach people"
+split_sentence = sentence.split()
+set_sentence = set(split_sentence)
+unique_sentence = len(set_sentence)
+print(unique_sentence)
+
 >>>>>>> 1c0732d05bc2c0323ece825e5132c49ffe0d52a8
+
