@@ -2955,7 +2955,7 @@ countries_data = [
 # It should return 10 or 20 most spoken languages in the world in 
 # descending order
 def most_spoken_languages():
-    lang= ""
+    langs= ""
     for i in range(len(countries_data)):
         for lang in countries_data[i]["languages"]:
             langs = langs + " " + lang
